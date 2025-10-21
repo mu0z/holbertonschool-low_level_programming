@@ -3,7 +3,8 @@
 /**
  * main - entry point of the program
  *
- * the function prints the size of various types using the unary operator "sizeof"
+ * the function prints the size of various types
+ * using the unary operator "sizeof"
  *
  * Return: always 0 (success)
  */
@@ -15,6 +16,6 @@ int main(void)
 	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
-	
+
 	return (0);
 }
