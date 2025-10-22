@@ -2,6 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - the function generates a random number then prints whether the last
+ * digit is greater than 0, equal to 0 or less than 6
+ *
+ * Return: always 0(success)
+ */
+
 int main(void)
 {
 	int n;
@@ -10,6 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	int last_digit = n % 10;
+
 	printf("Last digit of %d is %d", n, last_digit);
 
 	if (last_digit > 5)
@@ -21,3 +29,4 @@ int main(void)
 
 	return (0);
 }
+
