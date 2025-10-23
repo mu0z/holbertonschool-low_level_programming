@@ -20,13 +20,13 @@ int main(void)
 	}
 
 	upper = 'A';
-	while (upper <= 'z')
+	while (upper <= 'Z')
 	{
 		putchar(upper);
 		upper++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
