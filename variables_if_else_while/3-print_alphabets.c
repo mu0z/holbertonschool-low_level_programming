@@ -23,10 +23,10 @@ int main(void)
 	}
 
 	while (character2 <= 'Z')
-        {
-                putchar(character2);
-                character2++;
-        }
+	{
+		putchar(character2);
+		character2++;
+	}
 
 	putchar('\n');
 
