@@ -17,10 +17,14 @@ int main(void)
 	while (character <= 'z')
 	{
 		if (character == 'q' || character == 'e')
+		{
 			character++;
+		}
 		else
+		{
 			putchar(character);
 			character++;
+		}
 	}
 
 	putchar('\n');
