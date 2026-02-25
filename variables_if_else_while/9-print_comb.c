@@ -18,9 +18,11 @@ int main(void)
 	{
 		putchar(digit + '0');
 		if (digit < 9)
+		{
 			putchar(',');
 		putchar(' ');
-		digit++;
+		}
+	digit++;
 	}
 
 	putchar('\n');
