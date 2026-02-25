@@ -8,7 +8,7 @@
  * this program determines whether a random number is
  * negative, positive or zero
  *
- * Return : always 0
+ * Return: always 0
  */
 
 int main(void)
