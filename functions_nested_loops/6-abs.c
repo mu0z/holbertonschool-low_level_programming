@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * abs - computes the absolute value of an integer
+ * _abs - computes the absolute value of an integer
  *
  * @n : the number to be computed
  *
@@ -11,7 +11,7 @@
 int _abs(int n)
 {
 	if (n < 0)
-		return(-n);
+		return (-n);
 	else
-		return(n);
+		return (n);
 }
