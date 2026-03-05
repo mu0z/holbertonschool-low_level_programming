@@ -31,7 +31,7 @@ int main(void)
 			scanf("%d", &b);
 			printf("Result: %d\n", (a + b));
 		}
-		
+
 		if (c == 2)
 		{
 			printf("A: ");
@@ -39,6 +39,15 @@ int main(void)
 			printf("B: ");
 			scanf("%d", &b);
 			printf("Result: %d\n", (a - b));
+		}
+
+		if (c == 3)
+		{
+			printf("A: ");
+			scanf("%d", &a);
+			printf("B: ");
+			scanf("%d", &b);
+			printf("Result: %d\n", (a * b));
 		}
 
 		if (c == 0)
