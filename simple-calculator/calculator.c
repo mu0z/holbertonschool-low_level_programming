@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int choice;
+	int c;
 
 	printf("~~Simple Calculator~~\n");
 	printf("[1] - Add\n");
@@ -10,11 +10,21 @@ int main(void)
 	printf("[3] - Multiply\n");
 	printf("[4] - Divide\n");
 	printf("[0] - Quit\n");
-	
-	printf("Choice : ");
-	scanf("%d", &choice);
 
-	if (choice == 0)
-		printf("Goodbye !\n");
+	do
+	{
+		printf("Choice : ");
+		scanf("%d", &c);
+
+		if (c < 0 || c > 4)
+		{
+			printf("Invalid choice\n");
+		}
+
+		if (c == 0)
+			printf("Goodbye !\n");
+
+	} while (c != 0);
+
 	return (0);
 }
