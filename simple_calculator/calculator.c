@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
 
 int main(void)
 {
@@ -14,7 +11,7 @@ int main(void)
 	printf("[4] - Divide\n");
 	printf("[0] - Quit\n");
 	
-	printf("Choice : ");
+	printf("Choice: ");
 	scanf("%d", &choice);
 
 	if (choice == 0)
