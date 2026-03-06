@@ -3,8 +3,10 @@
 int main(void)
 {
 	int c = 0;
-	int a = 0;
-	int b = 0;
+	int ai = 0;
+	int bi = 0;
+	float af = 0;
+	float bf = 0;
 
 	printf("~~Simple Calculator~~\n");
 	printf("[1] - Add\n");
@@ -26,28 +28,44 @@ int main(void)
 		if (c == 1)
 		{
 			printf("A: ");
-			scanf("%d", &a);
+			scanf("%d", &ai);
 			printf("B: ");
-			scanf("%d", &b);
-			printf("Result: %d\n", (a + b));
+			scanf("%d", &bi);
+			printf("Result: %d\n", (ai + bi));
 		}
 
 		if (c == 2)
 		{
 			printf("A: ");
-			scanf("%d", &a);
+			scanf("%d", &ai);
 			printf("B: ");
-			scanf("%d", &b);
-			printf("Result: %d\n", (a - b));
+			scanf("%d", &bi);
+			printf("Result: %d\n", (ai - bi));
 		}
 
 		if (c == 3)
 		{
 			printf("A: ");
-			scanf("%d", &a);
+			scanf("%d", &ai);
 			printf("B: ");
-			scanf("%d", &b);
-			printf("Result: %d\n", (a * b));
+			scanf("%d", &bi);
+			printf("Result: %d\n", (ai * bi));
+		}
+
+		if (c == 4)
+		{
+			printf("A: ");
+			scanf("%f", &af);
+			printf("B: ");
+			scanf("%f", &bf);
+			if (bf == 0)
+			{
+			printf("Error: division by zero\n");
+			}
+			else
+			{
+			printf("Result: %.1f\n", (af / bf));
+			}
 		}
 
 		if (c == 0)
